@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            display: flex;
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            gap: 30px;
+        }
+        .left-side {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 250px;
+        }
+        .left-side img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #333;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        .role {
+            font-style: italic;
+            color: #555;
+            text-align: center;
+        }
+        .right-side {
+            flex: 1;
+        }
+        .right-side h3 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .right-side p {
+            margin: 8px 0;
+            line-height: 1.4;
+        }
+        .right-side p b {
+            color: #000;
+        }
+        .skills ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .skills li {
+            margin-bottom: 6px;
+            font-size: 16px;
+        }
+        .formss{
+            display: flex;
+            box-shadow: 0 0 10px rgba(228, 20, 20, 0.1);
+            padding: 20px;
+            gap: 30px;
+            max-width: 800px;
+            background-color: #31927d;
+
+        }
+        .formss input{
+            width: 100%;
+            height: 40px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <img src="port1.jpg" alt="Profile Photo" />
+            <div class="name">Anandha Krishnan S</div>
+            <div class="role">System Security</div>
+        </div>
+        <div class="right-side">
+            <section class="project-details">
+                <h3>Project Details</h3>
+                <p>W3 security: <b>To ensure Encryption</b></p>
+                <p>Project Description: <b>Project 1 is a project that is used to test the security of a system.</b></p>
+                <p>Project Date: <b>2020-2021</b></p>
+            </section>
+            <section class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Soccer &#11088;&#11088;&#11088;&#11088;</li>
+                </ul>
+            </section>
+        </div>
+        
+    </div>
+
+    <div class="formss">
+            <form>
+                <input type="text" name="name" placeholder="Name" />
+                <input type="email" name="email" placeholder="Email" />
+                
+                <textarea rows="5" cols="50" name="message" placeholder="Message"></textarea><br>
+                <input type="submit" value="Submit" />
+            </form>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
